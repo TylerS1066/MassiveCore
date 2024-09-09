@@ -509,7 +509,7 @@ public class ReflectionUtil
 	// -------------------------------------------- //
 	
 	// Example: "v1_9_R4"
-	private static String versionRaw = Bukkit.getServer().getClass().getPackage().getName().substring(23);
+	private static String versionRaw = "v1_20_R6"; // bad
 	public static String getVersionRaw() { return versionRaw; }
 	
 	public static String getVersionRawPart(int index)
